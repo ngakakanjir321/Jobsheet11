@@ -23,5 +23,14 @@ public class bagan2 {
         System.out.println("isi variable r = "+ r);
         System.out.println("isi x sama dengan r (case sensitive = "+ x.equals(r));
         System.out.println("isi x sama dengan r (Not case sensitive) = "+ x.equalsIgnoreCase(r));
+        
+        System.out.println("perbandingan isi x dengan y = " + x.compareTo(y));
+        System.out.println("perbandingan isi x dengan z (case sensitive) + " + x.compareTo(z));
+        System.out.println("perbandingan isi x dengan r (case sensitive = " + x.compareTo(r));
+        System.out.println("perbandingan isi x dengan r (not case sensitive) = " + x.compareToIgnoreCase(r));
+        String s = "operasi";
+        System.out.println("isi variable s = "+ s);
+        System.out.println("perbandingan isi r dengan s (case sensitive) = "+ r.compareTo(s));
+        
            }
 }
